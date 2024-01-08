@@ -1,59 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
 }
+/* ntg to  */
 
-body{
-    font-family: 'Roboto',sans-serif;
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    margin: 0;
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
 }
-.container{
-    display: flex;
-    width: 90vw
+.container {
+  display: flex;
+  width: 90vw;
 }
-.panel{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
-    border-radius: 20px;
-    flex: .5;
-    margin: 10px;
-    position: relative;
-    color: white;
-    transition: all .3s ease-in;
-    cursor: pointer;
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  border-radius: 20px;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  color: white;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
 }
-.panel h3{
-    font-size: 18px;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    margin: 0px;
-    opacity: 0;
+.panel h3 {
+  font-size: 18px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0px;
+  opacity: 0;
 }
-.panel.active{
-    flex: 10;
+.panel.active {
+  flex: 10;
 }
-.panel.active h3{
-    opacity: 1;
-    font-size: 24px;
-    transition: opacity .3s ease-in;
+.panel.active h3 {
+  opacity: 1;
+  font-size: 24px;
+  transition: opacity 0.3s ease-in;
 }
-@media(max-width:480px){
-    
-    .panel.active h3{
-        font-size: 20px;
-    }
-    .panel:nth-of-type(4),
-    .panel:nth-of-type(5){
-        display: none;
-    }
+@media (max-width: 480px) {
+  .panel.active h3 {
+    font-size: 20px;
+  }
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
 }
 /* @media(max-width:481px)and (min-width:768px){
     .container{
@@ -64,13 +64,7 @@ body{
     }
 } */
 
-
-
-
-
-
-
- /* body{
+/* body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     display: flex;
@@ -79,8 +73,6 @@ body{
     overflow: hidden;
     height: 100vh;
 }  */
-
-
 
 /* .container{
     display: flex;
